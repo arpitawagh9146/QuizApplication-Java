@@ -8,7 +8,7 @@ class Quiz {
         questions.add(q);
     }
 
-    void startQuiz() {
+    void startQuiz() {gi
         Scanner sc = new Scanner(System.in);
 
         for (Question q : questions) {
@@ -29,6 +29,6 @@ class Quiz {
             }
         }
 
-        System.out.println("\nFinal Score: " + score);
+        System.out.println("\nF Score: " + score);
     }
 }
